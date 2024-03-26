@@ -5,7 +5,7 @@
   "nodes":[
     {
       "id":"start",
-      "lang":"en:node.base.start",
+      "lang":"node.base.start",
       "type":"event",
       "inputs":[],
       "outputs":[
@@ -19,7 +19,11 @@
       }
     },
     {
-      "id":"console.log"
+      "id":"console.log",
+      "lang":"node.base.start",
+      "type":"node",
+      "inputs":[
+      
     }
   ]
 }
