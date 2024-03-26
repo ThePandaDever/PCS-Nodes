@@ -1,1 +1,18 @@
-
+{
+  "nodes":[
+    {
+      "id":"start",
+      "type":"event",
+      "inputs":[],
+      "outputs":[
+        {
+          "id":"flow_out",
+          "type":"flow"
+        }
+      ],
+      "event":{
+        "id":"init"
+      }
+    }
+  ]
+}
