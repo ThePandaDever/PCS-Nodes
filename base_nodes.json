@@ -1,13 +1,18 @@
 {
-  "lang":{
-    "en:node.base.start":{
+  "nodelang":{
+    "en:base.start":{
       "text":"Start"
     },
-    "en:node.base.console.log":{
+    "en:base.console.log":{
       "text":"Console.Log"
     },
-    "en:node.base.if":{
+    "en:base.if":{
       "text":"If"
+    }
+  },
+  "portlang":{
+    "en:base.console.log.text":{
+      "text":"Text"
     }
   }
   "nodes":[
@@ -33,7 +38,8 @@
       "inputs":[
         {
           "id":"flow_in",
-          "type":"flow"
+          "type":"flow",
+          "lang":"port.base.console.log.text"
         }
         {
           "id":"text",
