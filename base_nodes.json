@@ -13,6 +13,9 @@
   "portlang":{
     "en:base.console.log.text":{
       "text":"Text"
+    },
+    "en:base.if.condition":{
+      "text":"Condition"
     }
   }
   "nodes":[
