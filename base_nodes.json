@@ -37,7 +37,7 @@
         }
         {
           "id":"text",
-          "type":"bool"
+          "type":"string"
         }
       ],
       "outputs":[
