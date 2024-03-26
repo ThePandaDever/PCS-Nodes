@@ -1,11 +1,14 @@
 {
   "lang":{
     "en:node.base.start":{
-      "txt":"Start"
+      "text":"Start"
     },
     "en:node.base.console.log":{
-      "txt":"Console.Log"
-     }
+      "text":"Console.Log"
+    },
+    "en:node.base.if":{
+      "text":"If"
+    }
   }
   "nodes":[
     {
