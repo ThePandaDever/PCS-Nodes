@@ -32,10 +32,39 @@
           "id":"flow_in",
           "type":"flow"
         }
+        {
+          "id":"text",
+          "type":"bool"
+        }
       ],
       "outputs":[
         {
           "id":"flow_out",
+          "type":"flow"
+        }
+      ]
+    }
+    {
+      "id":"if",
+      "lang":"node.base.if",
+      "type":"node",
+      "inputs":[
+        {
+          "id":"flow_in",
+          "type":"flow"
+        }
+        {
+          "id":"condition",
+          "type":"bool"
+        }
+      ],
+      "outputs":[
+        {
+          "id":"true",
+          "type":"flow"
+        }
+        {
+          "id":"false",
           "type":"flow"
         }
       ]
