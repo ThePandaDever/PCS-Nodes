@@ -23,7 +23,17 @@
       "lang":"node.base.start",
       "type":"node",
       "inputs":[
-      
+        {
+          "id":"flow_in",
+          "type":"flow"
+        }
+      ],
+      "outputs":[
+        {
+          "id":"flow_out",
+          "type":"flow"
+        }
+      ]
     }
   ]
 }
