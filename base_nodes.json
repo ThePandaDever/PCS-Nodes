@@ -1,6 +1,7 @@
 {
   "lang":{
-    "en:node.base.start":{"txt":"Start"}
+    "en:node.base.start":{"txt":"Start"},
+    "en:node.base.console.log":{"txt":"Console.Log"}
   }
   "nodes":[
     {
@@ -20,7 +21,7 @@
     },
     {
       "id":"console.log",
-      "lang":"node.base.start",
+      "lang":"node.base.console.log",
       "type":"node",
       "inputs":[
         {
