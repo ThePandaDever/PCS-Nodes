@@ -1,7 +1,11 @@
 {
+  "lang":{
+    "en:node.base.start":{"txt":"Start"}
+  }
   "nodes":[
     {
       "id":"start",
+      "lang":"en:node.base.start",
       "type":"event",
       "inputs":[],
       "outputs":[
@@ -13,6 +17,9 @@
       "event":{
         "id":"init"
       }
+    },
+    {
+      "id":"console.log"
     }
   ]
 }
