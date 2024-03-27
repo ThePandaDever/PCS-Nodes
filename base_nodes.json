@@ -17,11 +17,11 @@
     "en:base.if.condition":{
       "text":"Condition"
     }
-    "en:base.if.condition":{
-      "text":"Condition"
+    "en:base.if.false":{
+      "text":"False"
     }
-    "en:base.if.condition":{
-      "text":"Condition"
+    "en:base.if.true":{
+      "text":"True"
     }
   }
   "nodes":[
